@@ -1,0 +1,351 @@
+1
+00:00:00,096 --> 00:00:03,241
+Vous arrivez sur le campus, vous ouvrez votre ordinateur,
+
+2
+00:00:03,522 --> 00:00:05,020
+et vous vous connectez au Wi-Fi.
+
+3
+00:00:05,192 --> 00:00:08,974
+Mais au lieu de votre page habituelle, une page de connexion s'affiche.
+
+4
+00:00:09,100 --> 00:00:10,382
+Que s'est-il passé ?
+
+5
+00:00:10,541 --> 00:00:14,719
+Derrière ce geste banal se cache presque tout ce que vous allez apprendre dans ce cours.
+
+6
+00:00:15,763 --> 00:00:19,436
+À la fin de cette vidéo, vous saurez expliquer le rôle d'un portail captif,
+
+7
+00:00:19,537 --> 00:00:21,552
+décrire les cinq contrôles d'accès du réseau,
+
+8
+00:00:21,760 --> 00:00:23,871
+et situer les trois couches de son architecture.
+
+9
+00:00:24,917 --> 00:00:26,115
+Ce réseau a un nom :
+
+10
+00:00:26,240 --> 00:00:31,560
+C W M N, pour Campus Wireless Mesh Network, un réseau sans fil maillé de campus.
+
+11
+00:00:31,732 --> 00:00:34,228
+Maillé veut dire que les points d'accès sont reliés entre eux,
+
+12
+00:00:34,509 --> 00:00:36,572
+et qu'un message peut emprunter plusieurs chemins.
+
+13
+00:00:36,732 --> 00:00:39,913
+Si un point d'accès tombe, le message passe par un autre.
+
+14
+00:00:40,062 --> 00:00:42,041
+Ce réseau est le fil rouge du cours :
+
+15
+00:00:42,177 --> 00:00:44,096
+chaque notion sera appliquée sur lui.
+
+16
+00:00:44,256 --> 00:00:45,286
+Retenez trois noms :
+
+17
+00:00:45,350 --> 00:00:47,413
+WiAGate, le portail captif ;
+
+18
+00:00:47,514 --> 00:00:49,913
+WiABox, le boîtier d'authentification ;
+
+19
+00:00:50,194 --> 00:00:52,497
+et le système de tickets, qui suit les incidents.
+
+20
+00:00:53,917 --> 00:00:56,449
+Suivons Awa, une étudiante, pas à pas.
+
+21
+00:00:56,249 --> 00:00:56,918
+Étape un :
+
+22
+00:00:57,042 --> 00:00:59,791
+Awa se connecte au Wi-Fi et ouvre son navigateur.
+
+23
+00:00:59,963 --> 00:01:01,678
+Elle n'est pas encore authentifiée.
+
+24
+00:01:01,850 --> 00:01:04,779
+Le portail captif intercepte sa première requête web,
+
+25
+00:01:05,059 --> 00:01:07,110
+et la redirige vers une page de connexion.
+
+26
+00:01:07,271 --> 00:01:09,142
+C'est la couche réseau qui agit ici :
+
+27
+00:01:09,254 --> 00:01:10,620
+on détourne le trafic.
+
+28
+00:01:12,063 --> 00:01:12,912
+Étape deux :
+
+29
+00:01:13,024 --> 00:01:14,751
+Awa saisit ses identifiants.
+
+30
+00:01:14,899 --> 00:01:19,703
+Sa demande passe alors par cinq contrôles, regroupés sous le sigle A A A, P B P.
+
+31
+00:01:19,503 --> 00:01:20,628
+Authentification :
+
+32
+00:01:20,741 --> 00:01:21,626
+est-ce bien Awa ?
+
+33
+00:01:21,786 --> 00:01:22,816
+Autorisation :
+
+34
+00:01:22,916 --> 00:01:25,412
+avec son rôle d'étudiante, à quoi a-t-elle droit ?
+
+35
+00:01:25,538 --> 00:01:26,783
+Comptabilisation :
+
+36
+00:01:26,920 --> 00:01:28,731
+on enregistre ce qu'elle consomme.
+
+37
+00:01:28,856 --> 00:01:29,993
+Tarification :
+
+38
+00:01:30,130 --> 00:01:31,628
+quel prix pour cet usage ?
+
+39
+00:01:31,786 --> 00:01:32,503
+Et paiement :
+
+40
+00:01:32,628 --> 00:01:33,621
+la facture.
+
+41
+00:01:33,782 --> 00:01:38,068
+Chaque utilisateur est ainsi associé à un contrat et à un mode de facturation.
+
+42
+00:01:39,684 --> 00:01:40,473
+Étape trois :
+
+43
+00:01:40,562 --> 00:01:42,456
+Awa ne s'est authentifiée qu'une seule fois,
+
+44
+00:01:42,593 --> 00:01:45,112
+et elle accède maintenant à toutes les applications du campus :
+
+45
+00:01:45,309 --> 00:01:49,163
+la messagerie, les cours en ligne, ou la voix sur Wi-Fi, WiATalk.
+
+46
+00:01:49,312 --> 00:01:50,629
+C'est le principe OAuth :
+
+47
+00:01:50,850 --> 00:01:52,985
+une connexion, plusieurs services.
+
+48
+00:01:53,146 --> 00:01:57,600
+Pendant ce temps, en coulisses, le système de tickets surveille l'infrastructure.
+
+49
+00:01:57,761 --> 00:02:00,341
+Si un point d'accès tombe, un ticket est ouvert,
+
+50
+00:02:00,441 --> 00:02:02,480
+avant même qu'Awa ne remarque quoi que ce soit.
+
+51
+00:02:03,883 --> 00:02:05,669
+Prenons maintenant de la hauteur.
+
+52
+00:02:05,829 --> 00:02:09,081
+Ce réseau est organisé en trois couches, de bas en haut.
+
+53
+00:02:09,242 --> 00:02:12,819
+En bas, l'infrastructure, avec les boîtiers WiABox.
+
+54
+00:02:12,980 --> 00:02:17,086
+Au milieu, la plateforme WiCoNAS, qui expose le réseau comme un service,
+
+55
+00:02:17,211 --> 00:02:18,745
+à travers une API REST.
+
+56
+00:02:18,917 --> 00:02:23,204
+Les utilisateurs et leurs équipements y sont enregistrés, avec leurs rôles.
+
+57
+00:02:23,330 --> 00:02:26,679
+En haut, les services et les applications qu'utilise Awa.
+
+58
+00:02:26,850 --> 00:02:27,699
+L'idée clé :
+
+59
+00:02:27,824 --> 00:02:30,692
+l'accès au Wi-Fi n'est plus un simple tuyau invisible.
+
+60
+00:02:30,853 --> 00:02:34,550
+C'est un service, avec un contrat, des droits et une facture.
+
+61
+00:02:36,196 --> 00:02:38,151
+Attention à une confusion fréquente :
+
+62
+00:02:38,348 --> 00:02:40,495
+authentification et autorisation.
+
+63
+00:02:40,655 --> 00:02:42,874
+S'authentifier, c'est prouver qui l'on est,
+
+64
+00:02:42,951 --> 00:02:45,735
+comme montrer sa carte d'étudiant à l'entrée du campus.
+
+65
+00:02:45,896 --> 00:02:49,173
+Être autorisé, c'est avoir le droit d'entrer dans une salle précise :
+
+66
+00:02:49,441 --> 00:02:52,153
+votre carte d'étudiant n'ouvre pas la salle des serveurs.
+
+67
+00:02:52,314 --> 00:02:55,447
+Ce sont deux contrôles différents, et toujours dans cet ordre.
+
+68
+00:02:56,817 --> 00:02:58,303
+Récapitulons.
+
+69
+00:02:58,461 --> 00:02:58,890
+Un :
+
+70
+00:02:59,026 --> 00:03:03,541
+le portail captif intercepte la première requête et redirige vers la page de connexion.
+
+71
+00:03:03,702 --> 00:03:04,226
+Deux :
+
+72
+00:03:04,363 --> 00:03:09,046
+le contrôle d'accès enchaîne authentification, autorisation, comptabilisation,
+
+73
+00:03:09,134 --> 00:03:10,621
+tarification et paiement.
+
+74
+00:03:10,781 --> 00:03:11,258
+Trois :
+
+75
+00:03:11,370 --> 00:03:13,649
+l'architecture du campus empile trois couches :
+
+76
+00:03:13,762 --> 00:03:17,087
+l'infrastructure, la plateforme réseau, et les services.
+
+77
+00:03:18,517 --> 00:03:19,511
+À vous de jouer.
+
+78
+00:03:19,683 --> 00:03:21,121
+Awa est bien connectée,
+
+79
+00:03:21,282 --> 00:03:24,018
+mais elle ne peut pas ouvrir l'application réservée aux enseignants.
+
+80
+00:03:24,191 --> 00:03:26,278
+Lequel des cinq contrôles l'a bloquée ?
+
+81
+00:03:26,450 --> 00:03:28,994
+Mettez la vidéo en pause, et répondez.
+
+82
+00:03:35,217 --> 00:03:36,103
+Réponse :
+
+83
+00:03:36,227 --> 00:03:37,353
+l'autorisation.
+
+84
+00:03:37,525 --> 00:03:41,595
+Awa est bien authentifiée, mais son rôle d'étudiante ne lui donne pas ce droit.
+
+85
+00:03:41,768 --> 00:03:44,228
+Vous connaissez maintenant le décor de tout le cours.
+
+86
+00:03:44,400 --> 00:03:45,610
+Dans le prochain module,
+
+87
+00:03:45,710 --> 00:03:48,771
+nous verrons pourquoi administrer un réseau est un enjeu stratégique,
+
+88
+00:03:48,991 --> 00:03:50,574
+et ce que coûte vraiment une panne.

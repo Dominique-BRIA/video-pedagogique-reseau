@@ -1,0 +1,77 @@
+{
+  "id": "m1v2",
+  "titre": "Le fil rouge : le Wi-Fi du campus",
+  "module": "Module 1 · Introduction",
+  "numero": "Vidéo 2",
+  "voice": "fr-FR-RemyMultilingualNeural",
+  "rate": "+4%",
+  "scenes": [
+    {
+      "id": "accroche",
+      "section": "Accroche",
+      "pauseAfter": 0.8,
+      "text": "Vous arrivez sur le campus, vous ouvrez votre ordinateur, et vous vous connectez au Wi-Fi. {c:page}Mais au lieu de votre page habituelle, une page de connexion s'affiche. Que s'est-il passé ? {c:cours}Derrière ce geste banal se cache presque tout ce que vous allez apprendre dans ce cours."
+    },
+    {
+      "id": "objectifs",
+      "section": "Objectifs",
+      "pauseAfter": 0.8,
+      "text": "À la fin de cette vidéo, vous saurez {c:o1}expliquer le rôle d'un portail captif, {c:o2}décrire les cinq contrôles d'accès du réseau, {c:o3}et situer les trois couches de son architecture."
+    },
+    {
+      "id": "cwmn",
+      "section": "Le réseau du campus",
+      "pauseAfter": 1.2,
+      "text": "Ce réseau a un nom : {c:cwmn}C W M N, pour Campus Wireless Mesh Network, un réseau sans fil maillé de campus. Maillé veut dire que {c:maille}les points d'accès sont reliés entre eux, et qu'un message peut emprunter plusieurs chemins. {c:panne}Si un point d'accès tombe, le message passe par un autre. Ce réseau est le fil rouge du cours : chaque notion sera appliquée sur lui. Retenez trois noms : {c:wiagate}WiAGate, le portail captif ; {c:wiabox}WiABox, le boîtier d'authentification ; {c:ticket}et le système de tickets, qui suit les incidents."
+    },
+    {
+      "id": "etape1",
+      "section": "Étape 1 · Le portail captif",
+      "pauseAfter": 1.2,
+      "text": "Suivons Awa, une étudiante, pas à pas. {c:s1}Étape un : Awa se connecte au Wi-Fi et ouvre son navigateur. Elle n'est pas encore authentifiée. {c:intercept}Le portail captif intercepte sa première requête web, {c:redirect}et la redirige vers une page de connexion. {c:couche}C'est la couche réseau qui agit ici : on détourne le trafic."
+    },
+    {
+      "id": "etape2",
+      "section": "Étape 2 · Les 5 contrôles",
+      "pauseAfter": 1.4,
+      "text": "{c:s2}Étape deux : Awa saisit ses identifiants. Sa demande passe alors par cinq contrôles, regroupés sous le sigle {c:sigle}A A A, P B P. {c:auth}Authentification : est-ce bien Awa ? {c:autor}Autorisation : avec son rôle d'étudiante, à quoi a-t-elle droit ? {c:acc}Comptabilisation : on enregistre ce qu'elle consomme. {c:pricing}Tarification : quel prix pour cet usage ? {c:billing}Et paiement : la facture. {c:contrat}Chaque utilisateur est ainsi associé à un contrat et à un mode de facturation."
+    },
+    {
+      "id": "etape3",
+      "section": "Étape 3 · Une seule connexion",
+      "pauseAfter": 1.2,
+      "text": "{c:s3}Étape trois : Awa ne s'est authentifiée qu'une seule fois, et elle accède maintenant à toutes les applications du campus : {c:apps}la messagerie, les cours en ligne, ou la voix sur Wi-Fi, WiATalk. C'est le principe {c:oauth}OAuth : une connexion, plusieurs services. {c:s4}Pendant ce temps, en coulisses, le système de tickets surveille l'infrastructure. {c:down}Si un point d'accès tombe, un ticket est ouvert, avant même qu'Awa ne remarque quoi que ce soit."
+    },
+    {
+      "id": "architecture",
+      "section": "Les 3 couches",
+      "pauseAfter": 1.4,
+      "text": "Prenons maintenant de la hauteur. Ce réseau est organisé en trois couches, de bas en haut. {c:iaas}En bas, l'infrastructure, avec les boîtiers WiABox. {c:wcnaas}Au milieu, la plateforme WiCoNAS, qui expose le réseau comme un service, à travers une API REST. Les utilisateurs et leurs équipements y sont enregistrés, avec leurs rôles. {c:saas}En haut, les services et les applications qu'utilise Awa. {c:idee}L'idée clé : l'accès au Wi-Fi n'est plus un simple tuyau invisible. C'est un service, avec un contrat, des droits et une facture."
+    },
+    {
+      "id": "erreur",
+      "section": "Erreur fréquente",
+      "pauseAfter": 1.2,
+      "text": "Attention à une confusion fréquente : {c:confusion}authentification et autorisation. S'authentifier, c'est prouver qui l'on est, {c:badge}comme montrer sa carte d'étudiant à l'entrée du campus. Être autorisé, c'est avoir le droit d'entrer dans une salle précise : {c:salle}votre carte d'étudiant n'ouvre pas la salle des serveurs. Ce sont deux contrôles différents, {c:ordre}et toujours dans cet ordre."
+    },
+    {
+      "id": "recap",
+      "section": "Récapitulatif",
+      "pauseAfter": 1.2,
+      "text": "Récapitulons. {c:r1}Un : le portail captif intercepte la première requête et redirige vers la page de connexion. {c:r2}Deux : le contrôle d'accès enchaîne authentification, autorisation, comptabilisation, tarification et paiement. {c:r3}Trois : l'architecture du campus empile trois couches : l'infrastructure, la plateforme réseau, et les services."
+    },
+    {
+      "id": "question",
+      "section": "À vous !",
+      "pauseAfter": 6.0,
+      "countdown": true,
+      "text": "À vous de jouer. {c:q}Awa est bien connectée, mais elle ne peut pas ouvrir l'application réservée aux enseignants. {c:q2}Lequel des cinq contrôles l'a bloquée ? Mettez la vidéo en pause, et répondez."
+    },
+    {
+      "id": "reponse",
+      "section": "Réponse",
+      "pauseAfter": 1.5,
+      "text": "Réponse : {c:a1}l'autorisation. {c:a2}Awa est bien authentifiée, mais son rôle d'étudiante ne lui donne pas ce droit. Vous connaissez maintenant le décor de tout le cours. Dans le prochain module, nous verrons {c:next}pourquoi administrer un réseau est un enjeu stratégique, et ce que coûte vraiment une panne."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "m1v1",
+  "titre": "Le métier d'administrateur réseau",
+  "module": "Module 1 · Introduction",
+  "numero": "Vidéo 1",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "accroche",
+      "section": "Accroche",
+      "audio": "voix/m1v1/accroche.mp3",
+      "audioSec": 16.992,
+      "pauseAfter": 0.8,
+      "countdown": false,
+      "frames": 534,
+      "cues": {
+        "panne": 3.271,
+        "qui": 8.245,
+        "avant": 13.99
+      }
+    },
+    {
+      "id": "objectifs",
+      "section": "Objectifs",
+      "audio": "voix/m1v1/objectifs.mp3",
+      "audioSec": 11.016,
+      "pauseAfter": 0.8,
+      "countdown": false,
+      "frames": 355,
+      "cues": {
+        "o1": 4.16,
+        "o2": 6.047,
+        "o3": 8.367
+      }
+    },
+    {
+      "id": "definition",
+      "section": "Définition",
+      "audio": "voix/m1v1/definition.mp3",
+      "audioSec": 26.664,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 836,
+      "cues": {
+        "moyens": 3.51,
+        "physique": 5.817,
+        "logique": 9.423,
+        "pourquoi": 14.617,
+        "comment": 20.421,
+        "stats": 24.387
+      }
+    },
+    {
+      "id": "equipements",
+      "section": "Les équipements",
+      "audio": "voix/m1v1/equipements.mp3",
+      "audioSec": 23.376,
+      "pauseAfter": 1.0,
+      "countdown": false,
+      "frames": 732,
+      "cues": {
+        "switch": 4.94,
+        "routeur": 9.243,
+        "parefeu": 13.101,
+        "serveur": 15.829
+      }
+    },
+    {
+      "id": "missions",
+      "section": "Les 4 missions",
+      "audio": "voix/m1v1/missions.mp3",
+      "audioSec": 40.608,
+      "pauseAfter": 1.4,
+      "countdown": false,
+      "frames": 1261,
+      "cues": {
+        "m1": 3.078,
+        "m2": 9.977,
+        "m3": 22.658,
+        "m4": 28.377,
+        "physlog": 36.695
+      }
+    },
+    {
+      "id": "profils",
+      "section": "Les 3 profils de parc",
+      "audio": "voix/m1v1/profils.mp3",
+      "audioSec": 40.752,
+      "pauseAfter": 1.4,
+      "countdown": false,
+      "frames": 1265,
+      "cues": {
+        "homo": 5.266,
+        "hetero": 9.965,
+        "pme1": 18.247,
+        "pme2": 21.312,
+        "pme3": 23.007,
+        "multi": 29.88,
+        "question": 36.406
+      }
+    },
+    {
+      "id": "competences",
+      "section": "Les compétences",
+      "audio": "voix/m1v1/competences.mp3",
+      "audioSec": 23.952,
+      "pauseAfter": 1.0,
+      "countdown": false,
+      "frames": 749,
+      "cues": {
+        "os": 3.992,
+        "reseau": 10.06,
+        "verbes": 20.264
+      }
+    },
+    {
+      "id": "erreur",
+      "section": "Erreur fréquente",
+      "audio": "voix/m1v1/erreur.mp3",
+      "audioSec": 24.504,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 772,
+      "cues": {
+        "erreur": 2.452,
+        "remede": 11.058,
+        "outils": 17.861
+      }
+    },
+    {
+      "id": "recap",
+      "section": "Récapitulatif",
+      "audio": "voix/m1v1/recap.mp3",
+      "audioSec": 19.824,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 631,
+      "cues": {
+        "r1": 1.66,
+        "r2": 6.551,
+        "r3": 12.778
+      }
+    },
+    {
+      "id": "question",
+      "section": "À vous !",
+      "audio": "voix/m1v1/question.mp3",
+      "audioSec": 13.68,
+      "pauseAfter": 6.0,
+      "countdown": true,
+      "frames": 591,
+      "cues": {
+        "q": 2.897,
+        "q2": 7.873
+      }
+    },
+    {
+      "id": "reponse",
+      "section": "Réponse",
+      "audio": "voix/m1v1/reponse.mp3",
+      "audioSec": 17.928,
+      "pauseAfter": 1.5,
+      "countdown": false,
+      "frames": 583,
+      "cues": {
+        "a1": 1.046,
+        "a2": 2.608,
+        "a3": 6.466,
+        "next": 16.166
+      }
+    }
+  ]
+}

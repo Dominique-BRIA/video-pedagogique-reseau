@@ -1,0 +1,174 @@
+{
+  "id": "m1v2",
+  "titre": "Le fil rouge : le Wi-Fi du campus",
+  "module": "Module 1 · Introduction",
+  "numero": "Vidéo 2",
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "accroche",
+      "section": "Accroche",
+      "audio": "voix/m1v2/accroche.mp3",
+      "audioSec": 14.856,
+      "pauseAfter": 0.8,
+      "countdown": false,
+      "frames": 470,
+      "cues": {
+        "page": 5.192,
+        "cours": 10.541
+      }
+    },
+    {
+      "id": "objectifs",
+      "section": "Objectifs",
+      "audio": "voix/m1v2/objectifs.mp3",
+      "audioSec": 8.352,
+      "pauseAfter": 0.8,
+      "countdown": false,
+      "frames": 275,
+      "cues": {
+        "o1": 1.791,
+        "o2": 3.87,
+        "o3": 6.094
+      }
+    },
+    {
+      "id": "cwmn",
+      "section": "Le réseau du campus",
+      "audio": "voix/m1v2/cwmn.mp3",
+      "audioSec": 27.792,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 870,
+      "cues": {
+        "cwmn": 1.406,
+        "maille": 7.692,
+        "panne": 11.899,
+        "wiagate": 20.517,
+        "wiabox": 22.68,
+        "ticket": 25.361
+      }
+    },
+    {
+      "id": "etape1",
+      "section": "Étape 1 · Le portail captif",
+      "audio": "voix/m1v2/etape1.mp3",
+      "audioSec": 16.92,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 544,
+      "cues": {
+        "s1": 2.416,
+        "intercept": 8.017,
+        "redirect": 11.226,
+        "couche": 13.438
+      }
+    },
+    {
+      "id": "etape2",
+      "section": "Étape 2 · Les 5 contrôles",
+      "audio": "voix/m1v2/etape2.mp3",
+      "audioSec": 26.232,
+      "pauseAfter": 1.4,
+      "countdown": false,
+      "frames": 829,
+      "cues": {
+        "s2": 0.096,
+        "sigle": 6.106,
+        "auth": 7.536,
+        "autor": 9.82,
+        "acc": 13.571,
+        "pricing": 16.889,
+        "billing": 19.82,
+        "contrat": 21.815
+      }
+    },
+    {
+      "id": "etape3",
+      "section": "Étape 3 · Une seule connexion",
+      "audio": "voix/m1v2/etape3.mp3",
+      "audioSec": 23.016,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 727,
+      "cues": {
+        "s3": 0.084,
+        "apps": 5.709,
+        "oauth": 10.445,
+        "s4": 13.546,
+        "down": 18.161
+      }
+    },
+    {
+      "id": "architecture",
+      "section": "Les 3 couches",
+      "audio": "voix/m1v2/architecture.mp3",
+      "audioSec": 30.84,
+      "pauseAfter": 1.4,
+      "countdown": false,
+      "frames": 968,
+      "cues": {
+        "iaas": 5.409,
+        "wcnaas": 9.147,
+        "saas": 19.497,
+        "idee": 23.017
+      }
+    },
+    {
+      "id": "erreur",
+      "section": "Erreur fréquente",
+      "audio": "voix/m1v2/erreur.mp3",
+      "audioSec": 19.464,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 620,
+      "cues": {
+        "confusion": 2.248,
+        "badge": 6.851,
+        "salle": 13.341,
+        "ordre": 17.993
+      }
+    },
+    {
+      "id": "recap",
+      "section": "Récapitulatif",
+      "audio": "voix/m1v2/recap.mp3",
+      "audioSec": 20.448,
+      "pauseAfter": 1.2,
+      "countdown": false,
+      "frames": 650,
+      "cues": {
+        "r1": 1.695,
+        "r2": 6.935,
+        "r3": 14.014
+      }
+    },
+    {
+      "id": "question",
+      "section": "À vous !",
+      "audio": "voix/m1v2/question.mp3",
+      "audioSec": 10.68,
+      "pauseAfter": 6.0,
+      "countdown": true,
+      "frames": 501,
+      "cues": {
+        "q": 1.25,
+        "q2": 5.757
+      }
+    },
+    {
+      "id": "reponse",
+      "section": "Réponse",
+      "audio": "voix/m1v2/reponse.mp3",
+      "audioSec": 15.576,
+      "pauseAfter": 1.5,
+      "countdown": false,
+      "frames": 513,
+      "cues": {
+        "a1": 1.094,
+        "a2": 2.392,
+        "next": 10.901
+      }
+    }
+  ]
+}

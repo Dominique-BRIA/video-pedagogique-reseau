@@ -1,0 +1,407 @@
+1
+00:00:00,096 --> 00:00:01,787
+Lundi, huit heures.
+
+2
+00:00:01,913 --> 00:00:04,901
+Toute l'école arrive, et plus personne n'a Internet.
+
+3
+00:00:05,072 --> 00:00:08,085
+Les téléphones sonnent, les étudiants s'impatientent.
+
+4
+00:00:08,245 --> 00:00:10,933
+Qui doit comprendre ce qui se passe, et vite ?
+
+5
+00:00:11,106 --> 00:00:12,784
+L'administrateur réseau.
+
+6
+00:00:12,957 --> 00:00:16,859
+Et idéalement, il l'aurait su avant même que le premier étudiant ne se plaigne.
+
+7
+00:00:17,884 --> 00:00:20,560
+Dans cette vidéo, je vous propose trois choses.
+
+8
+00:00:20,686 --> 00:00:23,699
+À la fin, vous saurez définir l'administration réseau,
+
+9
+00:00:23,847 --> 00:00:25,958
+citer les quatre missions de l'administrateur,
+
+10
+00:00:26,167 --> 00:00:28,674
+et reconnaître les trois profils de parc informatique.
+
+11
+00:00:29,683 --> 00:00:31,554
+Commençons par la définition.
+
+12
+00:00:31,713 --> 00:00:35,398
+Administrer un réseau, c'est réunir les moyens de connaître, à tout instant,
+
+13
+00:00:35,451 --> 00:00:36,432
+son état physique :
+
+14
+00:00:36,725 --> 00:00:40,062
+les câbles, les équipements allumés ou éteints, et son état logique :
+
+15
+00:00:40,342 --> 00:00:43,175
+les adresses, les routes, les services qui répondent.
+
+16
+00:00:43,301 --> 00:00:44,126
+Pourquoi ?
+
+17
+00:00:44,250 --> 00:00:46,566
+Pour détecter les problèmes des utilisateurs,
+
+18
+00:00:46,750 --> 00:00:48,909
+idéalement avant qu'ils ne les signalent eux-mêmes.
+
+19
+00:00:49,034 --> 00:00:49,895
+Et comment ?
+
+20
+00:00:50,054 --> 00:00:51,372
+Avec deux familles d'outils :
+
+21
+00:00:51,629 --> 00:00:53,812
+ceux qui vérifient que chaque équipement est joignable,
+
+22
+00:00:54,020 --> 00:00:56,191
+et ceux qui produisent des statistiques dans la durée.
+
+23
+00:00:57,596 --> 00:00:58,722
+Avant d'aller plus loin,
+
+24
+00:00:58,894 --> 00:01:02,267
+faisons connaissance avec les équipements que l'administrateur surveille.
+
+25
+00:01:02,440 --> 00:01:06,570
+Le commutateur, ou switch, relie les machines d'un même réseau local.
+
+26
+00:01:06,743 --> 00:01:10,428
+Le routeur relie ce réseau aux autres réseaux, et à Internet.
+
+27
+00:01:10,601 --> 00:01:13,169
+Le pare-feu filtre ce qui entre et ce qui sort.
+
+28
+00:01:13,329 --> 00:01:16,053
+Et les serveurs rendent des services, comme le DNS,
+
+29
+00:01:16,094 --> 00:01:18,794
+qui traduit les noms en adresses, ou le DHCP,
+
+30
+00:01:18,870 --> 00:01:20,777
+qui distribue les adresses automatiquement.
+
+31
+00:01:21,996 --> 00:01:23,795
+Voici maintenant le cœur du métier :
+
+32
+00:01:23,871 --> 00:01:24,852
+quatre missions.
+
+33
+00:01:24,978 --> 00:01:26,993
+Première mission, le câblage :
+
+34
+00:01:27,202 --> 00:01:29,241
+la connexion physique entre les machines.
+
+35
+00:01:29,400 --> 00:01:31,751
+Cuivre, fibre optique ou sans fil.
+
+36
+00:01:31,877 --> 00:01:33,964
+Deuxième mission, le routage :
+
+37
+00:01:34,197 --> 00:01:37,378
+la connexion logique, entre l'intérieur et l'extérieur du réseau,
+
+38
+00:01:37,538 --> 00:01:38,964
+ou entre plusieurs sous-réseaux.
+
+39
+00:01:39,136 --> 00:01:42,388
+Il peut être statique, fixé à la main, ou dynamique,
+
+40
+00:01:42,489 --> 00:01:44,432
+quand les routeurs s'adaptent seuls aux pannes.
+
+41
+00:01:44,558 --> 00:01:46,741
+Troisième mission, la sécurité :
+
+42
+00:01:46,829 --> 00:01:50,106
+antivirus, pare-feu, détection des intrusions.
+
+43
+00:01:50,277 --> 00:01:52,485
+Et quatrième mission, les droits d'accès :
+
+44
+00:01:52,585 --> 00:01:55,513
+qui peut entrer sur le réseau, et à quelles ressources il a droit.
+
+45
+00:01:55,674 --> 00:01:58,398
+Retenez bien cette distinction, elle reviendra souvent :
+
+46
+00:01:58,595 --> 00:02:00,321
+le câblage, c'est le physique ;
+
+47
+00:02:00,566 --> 00:02:02,376
+le routage, c'est le logique.
+
+48
+00:02:04,005 --> 00:02:07,162
+Ces missions ne s'exercent pas de la même façon selon le parc.
+
+49
+00:02:07,289 --> 00:02:09,075
+On distingue trois profils.
+
+50
+00:02:09,199 --> 00:02:10,469
+Un parc homogène :
+
+51
+00:02:10,581 --> 00:02:13,774
+des machines identiques, faciles à gérer de la même manière.
+
+52
+00:02:13,899 --> 00:02:15,313
+Un parc hétérogène :
+
+53
+00:02:15,521 --> 00:02:17,741
+plusieurs systèmes qui doivent fonctionner ensemble,
+
+54
+00:02:17,829 --> 00:02:20,156
+de façon transparente pour l'utilisateur.
+
+55
+00:02:20,281 --> 00:02:23,871
+Prenons une PME qui démarre avec dix postes Windows identiques.
+
+56
+00:02:23,995 --> 00:02:26,299
+Elle fusionne avec une équipe sous macOS,
+
+57
+00:02:26,411 --> 00:02:28,883
+puis installe des serveurs Linux pour son site web.
+
+58
+00:02:29,029 --> 00:02:30,876
+Son parc est devenu hétérogène,
+
+59
+00:02:31,073 --> 00:02:33,653
+et chaque nouvelle brique demande de nouvelles compétences.
+
+60
+00:02:33,813 --> 00:02:36,669
+Enfin, le parc multi-site ajoute la distance :
+
+61
+00:02:36,794 --> 00:02:40,179
+des liaisons entre les sites, de la latence, et une question clé.
+
+62
+00:02:40,340 --> 00:02:42,439
+Si le lien vers le site principal est coupé,
+
+63
+00:02:42,635 --> 00:02:44,554
+l'agence peut-elle continuer à travailler ?
+
+64
+00:02:46,150 --> 00:02:49,968
+Pour tenir ces missions, l'administrateur s'appuie sur deux piliers.
+
+65
+00:02:50,092 --> 00:02:54,078
+Connaître ses systèmes d'exploitation, Linux, Windows et les autres,
+
+66
+00:02:54,214 --> 00:02:56,001
+avec leurs outils en ligne de commande.
+
+67
+00:02:56,160 --> 00:02:57,850
+Et connaître les technologies réseau :
+
+68
+00:02:58,035 --> 00:03:02,610
+le réseau local, le protocole IP, et les protocoles qui font fonctionner Internet.
+
+69
+00:03:02,783 --> 00:03:05,675
+Le but de ce cours n'est pas de suivre une procédure d'installation,
+
+70
+00:03:05,872 --> 00:03:09,918
+mais de savoir diagnostiquer, superviser, et faire évoluer un réseau.
+
+71
+00:03:11,163 --> 00:03:13,358
+Attention à une erreur très fréquente.
+
+72
+00:03:13,519 --> 00:03:16,459
+On néglige le câblage, parce qu'il est invisible.
+
+73
+00:03:16,632 --> 00:03:17,396
+Résultat :
+
+74
+00:03:17,545 --> 00:03:20,173
+le jour d'une panne, personne ne sait quel câble va où,
+
+75
+00:03:20,321 --> 00:03:21,952
+et le diagnostic prend des heures.
+
+76
+00:03:22,124 --> 00:03:23,250
+Le remède est simple :
+
+77
+00:03:23,362 --> 00:03:27,144
+étiqueter chaque câble et chaque port, et tenir cette documentation à jour.
+
+78
+00:03:27,305 --> 00:03:28,791
+Et gardez en tête cette règle :
+
+79
+00:03:28,927 --> 00:03:31,988
+les outils d'administration sont des moyens, jamais une fin.
+
+80
+00:03:32,160 --> 00:03:35,449
+Un bon outil vous fait gagner du temps, il ne vous en fait pas perdre.
+
+81
+00:03:36,850 --> 00:03:38,336
+Récapitulons.
+
+82
+00:03:38,460 --> 00:03:38,961
+Un :
+
+83
+00:03:39,037 --> 00:03:43,191
+administrer un réseau, c'est connaître à tout instant son état physique et logique.
+
+84
+00:03:43,350 --> 00:03:43,851
+Deux :
+
+85
+00:03:43,939 --> 00:03:45,642
+l'administrateur a quatre missions :
+
+86
+00:03:45,814 --> 00:03:49,452
+le câblage, le routage, la sécurité et les droits d'accès.
+
+87
+00:03:49,578 --> 00:03:50,114
+Trois :
+
+88
+00:03:50,263 --> 00:03:53,251
+le parc peut être homogène, hétérogène ou multi-site,
+
+89
+00:03:53,472 --> 00:03:56,497
+et la difficulté grandit avec la diversité et la distance.
+
+90
+00:03:57,929 --> 00:04:00,569
+Avant de passer à la suite, une question pour vous.
+
+91
+00:04:00,730 --> 00:04:03,262
+Une agence ne peut plus ouvrir les fichiers du siège,
+
+92
+00:04:03,410 --> 00:04:05,545
+parce que la liaison entre les deux sites est coupée.
+
+93
+00:04:05,706 --> 00:04:08,670
+Quel profil de parc, et quelle mission sont concernés ?
+
+94
+00:04:08,843 --> 00:04:11,387
+Mettez la vidéo en pause, et répondez.
+
+95
+00:04:17,629 --> 00:04:18,466
+Réponse :
+
+96
+00:04:18,579 --> 00:04:21,880
+c'est un parc multi-site, et c'est la mission routage qui est en jeu :
+
+97
+00:04:22,029 --> 00:04:23,839
+la connexion logique entre les sites.
+
+98
+00:04:24,000 --> 00:04:25,269
+Une solution possible :
+
+99
+00:04:25,406 --> 00:04:29,019
+un serveur de fichiers local dans l'agence, ou un second lien de secours.
+
+100
+00:04:29,180 --> 00:04:30,426
+Dans la prochaine vidéo,
+
+101
+00:04:30,550 --> 00:04:33,539
+nous découvrirons le réseau qui servira de fil rouge à tout ce cours :
+
+102
+00:04:33,699 --> 00:04:35,329
+le réseau sans fil du campus.

@@ -1,0 +1,77 @@
+{
+  "id": "m1v1",
+  "titre": "Le métier d'administrateur réseau",
+  "module": "Module 1 · Introduction",
+  "numero": "Vidéo 1",
+  "voice": "fr-FR-RemyMultilingualNeural",
+  "rate": "+4%",
+  "scenes": [
+    {
+      "id": "accroche",
+      "section": "Accroche",
+      "pauseAfter": 0.8,
+      "text": "Lundi, huit heures. Toute l'école arrive, et {c:panne}plus personne n'a Internet. Les téléphones sonnent, les étudiants s'impatientent. {c:qui}Qui doit comprendre ce qui se passe, et vite ? L'administrateur réseau. Et idéalement, {c:avant}il l'aurait su avant même que le premier étudiant ne se plaigne."
+    },
+    {
+      "id": "objectifs",
+      "section": "Objectifs",
+      "pauseAfter": 0.8,
+      "text": "Dans cette vidéo, je vous propose trois choses. À la fin, vous saurez {c:o1}définir l'administration réseau, {c:o2}citer les quatre missions de l'administrateur, {c:o3}et reconnaître les trois profils de parc informatique."
+    },
+    {
+      "id": "definition",
+      "section": "Définition",
+      "pauseAfter": 1.2,
+      "text": "Commençons par la définition. Administrer un réseau, c'est {c:moyens}réunir les moyens de connaître, à tout instant, {c:physique}son état physique : les câbles, les équipements allumés ou éteints, {c:logique}et son état logique : les adresses, les routes, les services qui répondent. Pourquoi ? {c:pourquoi}Pour détecter les problèmes des utilisateurs, idéalement avant qu'ils ne les signalent eux-mêmes. Et comment ? {c:comment}Avec deux familles d'outils : ceux qui vérifient que chaque équipement est joignable, {c:stats}et ceux qui produisent des statistiques dans la durée."
+    },
+    {
+      "id": "equipements",
+      "section": "Les équipements",
+      "pauseAfter": 1.0,
+      "text": "Avant d'aller plus loin, faisons connaissance avec les équipements que l'administrateur surveille. {c:switch}Le commutateur, ou switch, relie les machines d'un même réseau local. {c:routeur}Le routeur relie ce réseau aux autres réseaux, et à Internet. {c:parefeu}Le pare-feu filtre ce qui entre et ce qui sort. {c:serveur}Et les serveurs rendent des services, comme le DNS, qui traduit les noms en adresses, ou le DHCP, qui distribue les adresses automatiquement."
+    },
+    {
+      "id": "missions",
+      "section": "Les 4 missions",
+      "pauseAfter": 1.4,
+      "text": "Voici maintenant le cœur du métier : quatre missions. {c:m1}Première mission, le câblage : la connexion physique entre les machines. Cuivre, fibre optique ou sans fil. {c:m2}Deuxième mission, le routage : la connexion logique, entre l'intérieur et l'extérieur du réseau, ou entre plusieurs sous-réseaux. Il peut être statique, fixé à la main, ou dynamique, quand les routeurs s'adaptent seuls aux pannes. {c:m3}Troisième mission, la sécurité : antivirus, pare-feu, détection des intrusions. {c:m4}Et quatrième mission, les droits d'accès : qui peut entrer sur le réseau, et à quelles ressources il a droit. Retenez bien cette distinction, elle reviendra souvent : {c:physlog}le câblage, c'est le physique ; le routage, c'est le logique."
+    },
+    {
+      "id": "profils",
+      "section": "Les 3 profils de parc",
+      "pauseAfter": 1.4,
+      "text": "Ces missions ne s'exercent pas de la même façon selon le parc. On distingue trois profils. {c:homo}Un parc homogène : des machines identiques, faciles à gérer de la même manière. {c:hetero}Un parc hétérogène : plusieurs systèmes qui doivent fonctionner ensemble, de façon transparente pour l'utilisateur. Prenons une PME qui démarre avec {c:pme1}dix postes Windows identiques. Elle fusionne avec une équipe {c:pme2}sous macOS, puis installe {c:pme3}des serveurs Linux pour son site web. Son parc est devenu hétérogène, et chaque nouvelle brique demande de nouvelles compétences. {c:multi}Enfin, le parc multi-site ajoute la distance : des liaisons entre les sites, de la latence, et une question clé. {c:question}Si le lien vers le site principal est coupé, l'agence peut-elle continuer à travailler ?"
+    },
+    {
+      "id": "competences",
+      "section": "Les compétences",
+      "pauseAfter": 1.0,
+      "text": "Pour tenir ces missions, l'administrateur s'appuie sur deux piliers. {c:os}Connaître ses systèmes d'exploitation, Linux, Windows et les autres, avec leurs outils en ligne de commande. {c:reseau}Et connaître les technologies réseau : le réseau local, le protocole IP, et les protocoles qui font fonctionner Internet. Le but de ce cours n'est pas de suivre une procédure d'installation, mais de savoir {c:verbes}diagnostiquer, superviser, et faire évoluer un réseau."
+    },
+    {
+      "id": "erreur",
+      "section": "Erreur fréquente",
+      "pauseAfter": 1.2,
+      "text": "Attention à une erreur très fréquente. {c:erreur}On néglige le câblage, parce qu'il est invisible. Résultat : le jour d'une panne, personne ne sait quel câble va où, et le diagnostic prend des heures. {c:remede}Le remède est simple : étiqueter chaque câble et chaque port, et tenir cette documentation à jour. Et gardez en tête cette règle : {c:outils}les outils d'administration sont des moyens, jamais une fin. Un bon outil vous fait gagner du temps, il ne vous en fait pas perdre."
+    },
+    {
+      "id": "recap",
+      "section": "Récapitulatif",
+      "pauseAfter": 1.2,
+      "text": "Récapitulons. {c:r1}Un : administrer un réseau, c'est connaître à tout instant son état physique et logique. {c:r2}Deux : l'administrateur a quatre missions : le câblage, le routage, la sécurité et les droits d'accès. {c:r3}Trois : le parc peut être homogène, hétérogène ou multi-site, et la difficulté grandit avec la diversité et la distance."
+    },
+    {
+      "id": "question",
+      "section": "À vous !",
+      "pauseAfter": 6.0,
+      "countdown": true,
+      "text": "Avant de passer à la suite, une question pour vous. {c:q}Une agence ne peut plus ouvrir les fichiers du siège, parce que la liaison entre les deux sites est coupée. {c:q2}Quel profil de parc, et quelle mission sont concernés ? Mettez la vidéo en pause, et répondez."
+    },
+    {
+      "id": "reponse",
+      "section": "Réponse",
+      "pauseAfter": 1.5,
+      "text": "Réponse : {c:a1}c'est un parc multi-site, {c:a2}et c'est la mission routage qui est en jeu : la connexion logique entre les sites. {c:a3}Une solution possible : un serveur de fichiers local dans l'agence, ou un second lien de secours. Dans la prochaine vidéo, nous découvrirons le réseau qui servira de fil rouge à tout ce cours : {c:next}le réseau sans fil du campus."
+    }
+  ]
+}
